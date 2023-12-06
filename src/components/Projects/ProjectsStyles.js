@@ -2,7 +2,7 @@ import { Button } from '../../globalStyles';
 import styled from 'styled-components';
 
 export const ProjectsSection = styled.div`
-	padding: 160px 0;
+	padding: 120px 0;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -69,13 +69,9 @@ export const ProjectsCardInfo = styled.div`
 	}
 `;
 
-export const ProjectsCardPlan = styled.h3`
+export const ProjectsCardTitle = styled.h3`
 	margin-bottom: 5px;
 	font-size: 2rem;
-`;
-
-export const ProjectsCardCost = styled.h4`
-	font-size: 1.2rem;
 `;
 
 export const ProjectsCardText = styled.p`

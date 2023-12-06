@@ -3,11 +3,10 @@ import {
 	ProjectsButton,
 	ProjectsButtonWrapper,
 	ProjectsCard,
-	ProjectsCardCost,
 	ProjectsCardFeature,
 	ProjectsCardFeatures,
 	ProjectsCardInfo,
-	ProjectsCardPlan,
+	ProjectsCardTitle,
 	ProjectsCardText,
 	ProjectsContainer,
 	ProjectsSection,
@@ -38,8 +37,7 @@ function Pricing() {
 						{projectsData.map((card, index) => (
 							<ProjectsCard key={index}>
 								<ProjectsCardInfo>
-									<ProjectsCardPlan>{card.title}</ProjectsCardPlan>
-									<ProjectsCardCost>{card.price}</ProjectsCardCost>
+									<ProjectsCardTitle>{card.title}</ProjectsCardTitle>
 									<ProjectsCardText>{card.description}</ProjectsCardText>
 									<ProjectsCardFeatures>
 										{card.features.map((feature, index) => (
@@ -50,10 +48,8 @@ function Pricing() {
 									</ProjectsCardFeatures>
 									<ProjectsButtonWrapper>
 									<ProjectsButton>Check live</ProjectsButton>
-									<ProjectsButton>Check code</ProjectsButton>
-									</ProjectsButtonWrapper>
-									
-									
+									<ProjectsButton onClick={()=> window.open(card.link, '_blank')}>Check code</ProjectsButton>
+									</ProjectsButtonWrapper>						
 								</ProjectsCardInfo>
 							</ProjectsCard>
 						))}

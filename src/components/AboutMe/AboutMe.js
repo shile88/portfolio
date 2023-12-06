@@ -1,7 +1,5 @@
 import { AboutMeButton, AboutMeSection, AboutMeText, AboutMeVideo, ButtonWrapper } from './AboutMeStyles';
 import { Button, Container, MainHeading } from '../../globalStyles';
-
-import { Link } from 'react-router-dom';
 import React from 'react';
 
 const HomePage = () => {

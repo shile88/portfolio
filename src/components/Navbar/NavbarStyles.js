@@ -100,8 +100,8 @@ export const NavLinks = styled.span`
 	height: 100%;
 	&:hover {
 		color: #c8c9d8;
-		transition: all 0.3s ease;
-		font-size:2rem;
+		transition: all 0.3s ease;	
+		text-decoration: underline;
 	}
 	@media screen and (max-width: 960px) {
 		text-align: center;

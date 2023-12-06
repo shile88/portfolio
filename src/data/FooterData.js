@@ -8,10 +8,12 @@ export const footerSocialData = [
 	{
 		name: 'LinkedIn',
 		icon: iconStyle(FaLinkedin),
+		link: 'https://linkedin.com/in/miloš-ivaniš-link'
 	},
 	{
 		name: 'GitHub',
 		icon: iconStyle(FaGithub),
+		link: 'https://github.com/shile88'
 	},
 	
 ];

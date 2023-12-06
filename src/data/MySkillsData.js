@@ -3,7 +3,6 @@ import {FaCss3Alt} from 'react-icons/fa';
 import {FaHtml5} from 'react-icons/fa';
 import {FaLaravel} from 'react-icons/fa';
 import {FaPhp} from 'react-icons/fa';
-import {FaQuestion} from 'react-icons/fa';
 import {FaReact} from 'react-icons/fa';
 import React from 'react';
 import { SiJavascript } from 'react-icons/si';
@@ -13,33 +12,27 @@ const iconStyle = (Icon) => <Icon size="3rem" color="#0f0f0f" />;
 
 export const MySkillsData = [
 	{
-		name: 'Html5',
-		icon: iconStyle(FaHtml5),
-		imgClass: 'one',
-		src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg'
-	},
-	{
-		name: 'CSS3',
-		icon: iconStyle(FaCss3Alt),
-		imgClass: 'two',
-		src: './assets/svg/html.png'
-	},
-	{
 		name: 'ReactJS',
 		icon: iconStyle(FaReact),
 		imgClass: 'three',
 		src: './assets/svg/html.png'
 	},
 	{
-		name: 'Bootstrap',
-		icon: iconStyle(FaBootstrap),
-		imgClass: 'four',
+		name: 'Html5',
+		icon: iconStyle(FaHtml5),
+		imgClass: 'one',
+		src: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg'
+	},
+	{
+		name: 'CSS/SASS',
+		icon: iconStyle(FaCss3Alt),
+		imgClass: 'two',
 		src: './assets/svg/html.png'
 	},
 	{
-		name: 'Styled components',
-		icon: iconStyle(FaQuestion),
-		imgClass: 'five',
+		name: 'Bootstrap',
+		icon: iconStyle(FaBootstrap),
+		imgClass: 'four',
 		src: './assets/svg/html.png'
 	},
 	{

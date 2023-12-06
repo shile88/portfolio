@@ -16,7 +16,7 @@ export const MySkillsTextWrapper = styled.div`
 
 export const MySkillsWrapper = styled.div`
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
+	grid-template-columns: repeat(4, 1fr);
 	margin-top: 4rem;
 	grid-gap: 2rem;
 	@media screen and (max-width: 1100px) {

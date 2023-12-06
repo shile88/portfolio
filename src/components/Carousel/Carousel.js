@@ -8,7 +8,7 @@ import {
 import { FaArrowCircleLeft, FaArrowCircleRight } from 'react-icons/fa';
 import { Heading, Row, Section, TextWrapper } from '../../globalStyles';
 import React, { useState } from 'react';
-import { data, sliderSettings } from '../../data/CarouselData';
+import { projectsData, sliderSettings } from '../../data/ProjectsData';
 
 import { IconContext } from 'react-icons';
 
@@ -30,7 +30,7 @@ const Carousel = () => {
 			</Row>
 
 			<ReviewSlider {...sliderSettings} ref={setSliderRef}>
-				{data.map((el, index) => (
+				{projectsData.map((el, index) => (
 					<ImageWrapper key={index}>
 						<CarouselImage src={el.image} />
 						<TextWrapper size="1.1rem" margin="0.4rem 0 0" weight="bold">
