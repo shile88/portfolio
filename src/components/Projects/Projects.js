@@ -1,4 +1,4 @@
-import { Button, Heading, TextWrapper } from '../../globalStyles';
+import { Heading, TextWrapper } from '../../globalStyles';
 import {
 	ProjectsButton,
 	ProjectsButtonWrapper,

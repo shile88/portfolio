@@ -51,7 +51,13 @@ useEffect(()=> {
                         <TopLine initial={initial} transition={{delay:0.3, duration:0.6}} animate={animation}>{topLine.tex}</TopLine>
                         <Heading inverse={inverse} initial={initial} transition={{delay:0.5, duration:0.6}} animate={animation}>{headline}</Heading>
                         <Subtitle inverse={inverse} initial={initial} transition={{delay:0.7, duration:0.6}} animate={animation}>{description}</Subtitle>
-                        <ContentButton initial={initial} transition={{delay:1, duration:0.6}} animate={animation} inverse={inverse} primary={primary}>{buttonLabel}</ContentButton>
+                        <a  
+                            href='./assets/MilosCV.pdf'
+                            download="Milos-Ivanis-CV"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                                <ContentButton initial={initial} transition={{delay:1, duration:0.6}} animate={animation} inverse={inverse} primary={primary}>{buttonLabel}</ContentButton>
+                        </a> 
                     </TextWrapper>
                 </ContentColumn>
                 <ContentColumn initial={initial} transition={{delay:0.5, duration:0.6}} animate={animation}>

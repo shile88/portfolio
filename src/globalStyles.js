@@ -64,7 +64,10 @@ export const Section = styled.section`
 	max-height: ${({ maxHeight }) => (maxHeight ? maxHeight : 'auto')};
 	min-height: ${({ minHeight }) => (minHeight ? minHeight : 'auto')};
 	@media screen and (max-width: 768px) {
-		padding: ${({ smPadding }) => (smPadding ? smPadding : '70px 0')};
+		padding: ${({ smPadding }) => (smPadding ? smPadding : '50px 0')};
+	}
+	@media screen and (max-width: 420px) {
+		padding: ${({ smPadding }) => (smPadding ? smPadding : '30px 0')};
 	}
 `;
 export const Row = styled.div`

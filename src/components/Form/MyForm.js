@@ -9,7 +9,9 @@ import {
 	FormSection,
 	FormTitle,
 	FormWrapper,
+	ContactsWrapper
 } from './MyFormStyles';
+import { TextWrapper } from '../../globalStyles';
 import React, { useState } from 'react';
 
 import { Container } from '../../globalStyles';
@@ -75,6 +77,21 @@ const MyForm = () => {
 	];
 	return (
 		<FormSection>
+			<ContactsWrapper>
+				<TextWrapper mb="1.4rem"
+						weight="500"
+						size="1.5rem"
+						color="white"
+						align="center"><span>Email:</span> milos.ivanis@gmail.com 
+				</TextWrapper>
+				<TextWrapper mb="1.4rem"
+						weight="500"
+						size="1.5rem"
+						color="white"
+						align="center"><span>Phone:</span> +382/69-895-795
+				</TextWrapper>
+			</ContactsWrapper>
+		
 			<Container>			
 				<FormRow>				
 					<FormColumn small>					
@@ -117,6 +134,7 @@ const MyForm = () => {
 				</FormRow>
 			</Container>
 		</FormSection>
+		
 	);
 };
 

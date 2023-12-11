@@ -35,7 +35,7 @@ export const ButtonContainer = styled(Row)`
 		transition: opacity 0.2s ease-in;
 	}
 	@media screen and (max-width: 960px) {
-		margin: 0 auto;
+		margin: 10px auto;
 	}
 `;
 

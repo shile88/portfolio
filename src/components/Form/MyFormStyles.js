@@ -8,6 +8,22 @@ export const FormSection = styled.div`
 	background: #101522;
 `;
 
+export const ContactsWrapper = styled.div`
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 auto;
+	@media screen and (max-width: 440px) {
+		margin: 0 40px;
+		
+		> span > span {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+	}
+`;
+
 export const FormTitle = styled.h1`
 	margin-bottom: 24px;
 	font-size: 48px;

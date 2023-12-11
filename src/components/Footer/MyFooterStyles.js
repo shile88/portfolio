@@ -1,6 +1,4 @@
-import { Column, Row } from '../../globalStyles';
-
-import { Link } from 'react-router-dom';
+import { Row } from '../../globalStyles';
 import styled from 'styled-components';
 
 export const FooterWrapper = styled.div`
@@ -38,5 +36,12 @@ export const FooterSocialIcon = styled.a`
 	color: #fff;
 	font-size: 30px;
 	text-decoration: none;
+
+	@media screen and (max-width: 420px) {
+		display: flex;
+		flex-direction: column;
+		
+		align-items:center;
+	}
 `;
 

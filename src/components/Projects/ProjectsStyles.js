@@ -115,4 +115,8 @@ margin-right: 5px;
 			background: white;
 			transition: background 0.3s ease;
 		}
+
+	@media screen and (max-width: 420px) {
+		font-size: 12px;
+	}
 `
