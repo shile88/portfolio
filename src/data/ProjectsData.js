@@ -5,15 +5,17 @@ export const projectsData = [
 		features: ['ReactJS', 'Axios with React query', 'Ant design', 'React Hook Form', 'Yup validation', 'Translation with React i18next'],
 		link: 'https://github.com/shile88/front-rent-car-amplitudo.git',
 		image: './assets/logo-car.jpg',
+		url: 'https://rentacar.milosivanis.com'
 	},
 	{
-		title: 'Online library',
-		description: 'Project for Cortex academy - still in works',
+		title: 'Minesweeper',
+		description: 'Old game but can you beat is',
 		features: [
-			'HTML', 'Pure CSS', 'Javascript', 'ReactJS', 'MySQL for database'
+			'HTML', 'Pure CSS', 'Javascript', 'ReactJS'
 		],
-		link: '',
-		image: './assets/library.jpg',
+		link: 'https://github.com/shile88/minesweeper.git',
+		image: './assets/mine.png',
+		url: 'https://minesweeper.milosivanis.com'
 	},
 	{
 		title: 'IMDB search',
@@ -23,6 +25,7 @@ export const projectsData = [
 		],
 		link: 'https://github.com/shile88/imdb-search-app.git',
 		image: './assets/imdb.png',
+		url: 'https://imdbsearch.milosivanis.com'
 	},
 
 	{
@@ -31,6 +34,23 @@ export const projectsData = [
 		features: ['HTML', 'CSS - Tailwind', 'Javascript', 'ReactJS','Axios for API fetch', 'Google OAuth'],
 		link: 'https://github.com/shile88/video-browser.git',
 		image: 'https://images.pexels.com/photos/325229/pexels-photo-325229.jpeg?cs=srgb&dl=pexels-manuel-geissinger-325229.jpg&fm=jpg',
+		url: 'https://videobrowser.milosivanis.com'
+	},
+	{
+		title: 'Mastermind',
+		description: 'Test your skills and find solution',
+		features: ['HTML', 'Pure CSS', 'Javascript', 'ReactJS'],
+		link: 'https://github.com/shile88/mastermind.git',
+		image: './assets/Mastermind.jpg',
+		url: 'https://mastermind.milosivanis.com'
+	},
+	{
+		title: 'Hangman',
+		description: 'Can you find correct word?',
+		features: ['HTML', 'Pure CSS', 'Javascript', 'ReactJS'],
+		link: 'https://github.com/shile88/hangman.git',
+		image: './assets/hangman.jpg',
+		url: 'https://hangman.milosivanis.com'
 	},
 	{
 		title: 'Rent a car',

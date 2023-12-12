@@ -47,7 +47,7 @@ function Pricing() {
 										))}
 									</ProjectsCardFeatures>
 									<ProjectsButtonWrapper>
-									<ProjectsButton>Check live</ProjectsButton>
+									<ProjectsButton onClick={()=> window.open(card.url, '_blank')}>Check live</ProjectsButton>
 									<ProjectsButton onClick={()=> window.open(card.link, '_blank')}>Check code</ProjectsButton>
 									</ProjectsButtonWrapper>						
 								</ProjectsCardInfo>
